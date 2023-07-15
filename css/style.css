@@ -1,0 +1,139 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  /* Tipografias */
+  
+  /* Fuente externa */
+  
+  @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,300&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&family=Source+Sans+Pro:ital,wght@1,300&display=swap');
+  
+  /* Acomodar Header , logo mas barra de nvegacion */
+  .header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient(to bottom, rgb(102, 102, 102), grey);
+    flex-wrap: wrap;
+    min-height: 15vh;
+  }
+  
+  /* Menu hamburguesa */
+  
+  .nav-link a:hover{
+    color: black;
+  }
+  
+  .nav-link{
+    color: white;
+    font-weight: bold;
+    padding-right: 9px;
+  }
+  
+  .navbar-toggler{
+    border: none !important;
+  
+  }
+  
+  .navbar-toggler:focus{
+    box-shadow: none !important;
+  } 
+  
+  .nav-item a:hover{
+    color: black;
+  }
+  
+  
+  
+  
+  /* Main */
+  
+  /* Titulos y parrafo */
+  h1{
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    padding: 12px;
+    color: white;
+  }
+  p{
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  
+  .negrita{
+    font-weight: bold;
+    font-size: large;;
+  }
+  
+  .main{
+    min-height: 85vh;
+    background-image: linear-gradient(to bottom, rgb(95, 95, 95), rgb(204, 204, 204));
+  }
+    /* Estilos para el formulario */
+    h2{
+      text-align: center;
+      color: white;
+      margin: 5px;
+      padding: 2px;
+  }
+  .form {
+      text-align: center;
+    
+    }
+    
+    .inputs {
+      border-radius: 10px;
+      padding: 5px;
+      background-color: lightblue;
+    }
+    
+    .smaller {
+      font-size: 12px;
+      background-color: rgb(0, 174, 255);
+    }
+    
+    .grupo {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 20px;
+    }
+    
+    .grupo div {
+      margin-bottom: 10px;
+    }
+
+    .etiquetas{
+        background-color: lightblue;
+    }
+
+    .estudiantes-container{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .card{
+        margin: 3px;
+    }
+    
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
